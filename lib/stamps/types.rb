@@ -4,23 +4,24 @@ module Stamps
 
     # TODO:  Need to figure out how to parse the wsdl file for types
     # instead of hard-coding them here
-    PACKAGE = [
-      'Postcard',
-      'Letter',
-      'Large envelope or flat',
-      'Thick envelope',
-      'Package',
-      'Flat Rate Box',
-      'Small Flat Rate Box',
-      'Large Flat Rate Box',
-      'Flat Rate Envelope',
-      'Flat Rate Padded Envelope',
-      'Large Package',
-      'Oversized Package',
-      'Regional Rate Box A',
-      'Regional Rate Box B',
-      'Legal Flat Rate Envelope',
-      'Regional Rate Box C'].freeze
+    PACKAGE = [ 
+      "Postcard",
+      "Letter",
+      "Large Envelope or Flat",
+      "Thick Envelope",
+      "Package",
+      "Large Package",
+      "Flat Rate Box",
+      "Small Flat Rate Box",
+      "Large Flat Rate Box",
+      "Flat Rate Envelope",
+      "Flat Rate Padded Envelope",
+      "Regional Rate Box A",
+      "Regional Rate Box B",
+      "Legal Flat Rate Envelope",
+      "Regional Rate Box C",
+      "Oversized Package"
+    ].freeze
 
     SERVICE = {
       'US-FC'  => 'USPS First-Class Mail',
